@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+ <head>
+     <title>My Table Assignment</title>
+ </head>	 
+
+ <body>
+<table>
+  <caption> My Transciprt</caption> 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </body>
+</html>
