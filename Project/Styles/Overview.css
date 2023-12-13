@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, main {
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+nav ol {
+    list-style-type: none;
+    padding: ;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #3498db, #6ab0de);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+nav .car {
+    margin-right: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.3s ease, color 0.3s ease;
+	margin-right: 33px;
+}
+
+nav a:hover {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+h2 {
+    text-align:left ;
+    color: #c32148;
+}
+h1 { text-align:center;
+color: #4a90e2;
+}
+h3 {
+	color:#c32148;
+}
+
+p {
+    line-height: 1.2;
+}
+
+ul, .custom {
+    list-style-type: square;
+    padding: 0;
+	
+}
+ .list {
+    list-style-type: circle;
+    padding: 5px;
+	margin-left:30px;
+
+}
+
+.custom {
+    margin-top: 10px;
+}
+
+.custom li {
+    margin-left: 20px;
+}
+
+/* Responsive styling for smaller screens */
+@media screen and (max-width: 768px) {
+    nav ol {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav .car {
+        margin: 10px 0;
+    }
+}

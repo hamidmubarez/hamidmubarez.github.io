@@ -1,0 +1,98 @@
+/* Add your styling here */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, main {
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+}
+h2 {
+text-align: center;
+color:#c32148;}
+nav {
+    background: linear-gradient(to right, #3498db, #6ab0de);
+    border-radius: 10px;
+    overflow: hidden;
+}
+h1{
+text-align:center;
+color:#4a90e2;}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+	
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.3s ease, color 0.3s ease;
+    border-radius: 5px;
+	margin-right: 40px;
+}
+
+nav a:hover {
+    background-color: #2980b9;
+    color: #fff;
+}
+.art 
+{margin: 20px;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+	background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+	
+
+}
+
+h1, nav {
+    text-align: center;
+	position:relative; 
+	left:10px;
+	
+}
+
+.team-member {
+    width: 45%;
+    margin: 20px;
+    float: left;
+	position:relative; 
+	
+	
+}
+
+.bio {
+    padding: px;
+	margin-left: 180px;
+}
+
+
+.team-member-image {
+    width: 150px;
+	overflow: auto
+	clear: left;
+	margin: 10px;
+    float: left; margin-right: 15px;
+}
